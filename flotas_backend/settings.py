@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-@@0&&#8w@m$f(epz(xq_+s$v3k+wp_(u1tq8=!f8$a9nm-ke6k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://flotas-backend.onrender.com"]
 
 
 # Application definition
