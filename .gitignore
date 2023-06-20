@@ -13,7 +13,7 @@ media/
 venvflotas/
 
 # Archivos de configuración local
-settings_local.py
+
 
 # Archivos y carpetas generados por herramientas de construcción
 node_modules/
