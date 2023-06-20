@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-@@0&&#8w@m$f(epz(xq_+s$v3k+wp_(u1tq8=!f8$a9nm-ke6k"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['flotas-backend.onrender.com', 'localhost', '127.0.0.1']
 
