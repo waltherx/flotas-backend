@@ -16,7 +16,6 @@ venvflotas/
 settings_local.py
 
 # Archivos y carpetas generados por herramientas de construcción
-/static/
 node_modules/
 npm-debug.log
 
