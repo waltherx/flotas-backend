@@ -1,0 +1,24 @@
+# Archivos y carpetas generados por Django
+*.pyc
+__pycache__/
+*.sqlite3
+db.sqlite3
+media/
+
+# Archivos y carpetas generados por IDEs y editores de texto
+.vscode/
+.idea/
+
+# Archivos y carpetas específicos de entornos virtuales
+venvflotas/
+
+# Archivos de configuración local
+settings_local.py
+
+# Archivos y carpetas generados por herramientas de construcción
+/static/
+node_modules/
+npm-debug.log
+
+# Otros archivos y carpetas generados
+.DS_Store
