@@ -26,7 +26,7 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Flotas API",
+        title="transporte API",
         default_version="v0.1",
         description="Aqui nada mas",
         terms_of_service="https://www.google.com/policies/terms/",
@@ -39,8 +39,8 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path("admin", admin.site.urls),
-    path("api/flota", include("flotas.urls")),
-    path("api/ruta", include("travels.urls")),
+    path("api/transporte", include("transporte.urls")),
+    path("api/itinerario", include("itinerario.urls")),
     path("api/auth", include("auth.urls")),
     path(
         "swagger/",

@@ -44,8 +44,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "drf_yasg",
     "rest_framework",    
-    "travels",
-    "flotas",
+    "itinerario",
+    "transporte",
 ]
 
 MIDDLEWARE = [

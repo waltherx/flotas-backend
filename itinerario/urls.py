@@ -1,7 +1,7 @@
 from django.urls import include, path
 from rest_framework import routers
 from rest_framework.documentation import include_docs_urls
-from travels import views
+from itinerario import views
 
 router = routers.DefaultRouter()
 router.register("ciudad", views.CiudadView)

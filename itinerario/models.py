@@ -1,4 +1,4 @@
-from flotas.models import Flota
+from transporte.models import Flota
 from django.db import models
 
 
