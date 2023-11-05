@@ -10,7 +10,7 @@ media/
 .idea/
 
 # Archivos y carpetas específicos de entornos virtuales
-venvflotas/
+envflotas/
 
 # Archivos de configuración local
 

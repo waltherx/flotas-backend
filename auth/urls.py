@@ -8,6 +8,5 @@ router = DefaultRouter()
 router.register(r"api", views.UserView)
 
 urlpatterns = [
-    path("v1/", include(router.urls)),
-    path("docs/", include_docs_urls(title="User API")),
+    path("/", include(router.urls)),
 ]

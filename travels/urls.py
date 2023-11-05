@@ -10,6 +10,5 @@ router.register("viaje", views.ViajeView)
 
 
 urlpatterns = [
-    path("v1/api/", include(router.urls)),
-    path("docs/", include_docs_urls(title="Rutas API")),
+    path("/", include(router.urls)),
 ]
