@@ -3,11 +3,12 @@
 __pycache__/
 *.sqlite3
 db.sqlite3
-media/
+
 
 # Archivos y carpetas generados por IDEs y editores de texto
 .vscode/
 .idea/
+.env
 
 # Archivos y carpetas específicos de entornos virtuales
 envflotas/
